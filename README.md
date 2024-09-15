@@ -5,6 +5,7 @@ Welcome to my collection of beginner-friendly JavaScript projects! This reposito
 **Projects Included**
 
 1. *Tic-Tac-Toe*
+   
 A classic game of Tic-Tac-Toe. This project will help you understand how to manage game state, handle user interactions, and implement game logic.
 
 - *Features:* 
