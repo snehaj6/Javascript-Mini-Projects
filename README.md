@@ -11,3 +11,12 @@ A classic game of Tic-Tac-Toe. This project will help you understand how to mana
 - *Features:* 
   - Play against another player
   - Simple UI with clear visual feedback
+ 
+2. *Rock-Paper-Scissors*
+
+The timeless game of Rock-Paper-Scissors, implemented in JavaScript. This project focuses on basic game logic and decision-making.
+
+- *Features:* 
+  - Play against the computer
+  - Display game results and score
+
