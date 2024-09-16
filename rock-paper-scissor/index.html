@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="main">
+
+      <div class="container">
+
+        <div class="resultImages">
+          <div class="userResult">
+            <img src="images/Rock1.png" alt="" />
+          </div>
+          <div class="compResult">
+            <img src="images/Rock1.png" alt="" />
+          </div>
+        </div>
+
+        <div class="msgContainer">
+          <p id="msg">Let's Play!!!</p>
+        </div>
+
+        <div class="choices">
+
+          <div class="content">
+            <div class="choice pink" id="Rock">
+              <img src="images/Rock1.png" />
+            </div>
+            <p class="Rockp">Rock</p>
+          </div>
+
+          <div class="content">
+            <div class="choice purple" id="Paper">
+              <img src="images/Paper1.png" />
+            </div>
+            <p class="Paperp">Paper</p>
+          </div>
+
+          <div class="content">
+            <div class="choice blue" id="Scissors">
+              <img src="images/Scissors1.png" />
+            </div>
+            <p class="Scisssorsp">Scissors</p>
+          </div>
+        
+        </div>
+
+      </div>
+
+      <div class="scoreBoard">
+        <h3>Score Board</h3>
+        <div class="scores">
+          <div class="score">
+            <p id="userScore">0</p>
+            <p>You</p>
+          </div>
+          <div class="score">
+            <p id="compScore">0</p>
+            <p>Computer</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
