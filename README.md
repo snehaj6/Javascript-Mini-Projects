@@ -19,4 +19,12 @@ The timeless game of Rock-Paper-Scissors, implemented in JavaScript. This projec
 - *Features:* 
   - Play against the computer
   - Display game results and score
+ 
+3. *Currency Converter*
+   
+A practical currency converter that allows you to convert between different currencies using real-time exchange rates.
+
+- *Features:* 
+  - Fetch data from an API for real-time exchange rates
+  - Simple user interface for input and output
 
