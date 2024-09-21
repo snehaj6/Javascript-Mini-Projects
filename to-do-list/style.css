@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #153677, #4e085f);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 400px;
+  padding: 25px 25px;
+}
+
+.to-do-app {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.to-do-app h2 {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.to-do-app h2 img {
+  height: 25px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 30px;
+  height: 40px;
+}
+
+.row input {
+  background: #edeef0;
+  outline: none;
+  border: none;
+  width: 100%;
+  border-radius: 30px;
+  padding-left: 15px;
+  font-size: 12px;
+}
+
+.row button {
+  border-radius: 30px;
+  background: #ff5945;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 11px 30px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+
+
+ul {
+  list-style: none;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 10px 50px;
+  user-select: none;
+  cursor: pointer;
+  overflow-y: scroll;
+}
+
+.scroll {
+  height: 180px;
+  scrollbar-width: auto;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 13px;
+
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: #c7cace;
+  border-radius: 15px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  display: none;
+}
+
+ul li {
+  position: relative;
+  font-size: 18px;
+}
+
+ul li::before {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-image: url("images/circle-regular.svg");
+  background-size: cover;
+  background-position: cover;
+  top: -5px;
+  left: -48px;
+}
+
+ul li.checked {
+  color: #797676;
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  background-image: url("images/circle-check-solid.svg");
+}
+
+ul li span {
+  position: absolute;
+  right: 0;
+  top: -10px;
+  width: 40px;
+  height: 40px;
+
+  font-weight: bold;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+}
+
+ul li span:hover {
+  background: #edeef0;
+}
+
+.counter-container {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #b1bacb;
+}
+
+.counter-container p {
+  padding: 6px 15px;
+}
+.counter-container button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 16px;
+  border-radius: 15px;
+  padding: 6px 15px;
+  color: #b1bacb;
+}
+
+.counter-container button:hover {
+  color: #fff;
+  background: #ff5945;
+}
