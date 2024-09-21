@@ -27,4 +27,13 @@ A practical currency converter that allows you to convert between different curr
 - *Features:* 
   - Fetch data from an API for real-time exchange rates
   - Simple user interface for input and output
+ 
+4. *To-Do List*
+   
+A functional to-do list application where you can add, edit, and delete tasks.
+
+- *Features:* 
+  - Add and remove tasks
+  - Mark tasks as completed
+  - Store tasks in local storage
 
